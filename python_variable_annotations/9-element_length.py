@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """element_length function with type annotations."""
-from typing import List
+from typing import List, Iterable, Sequence, Tuple
 
 
-def element_length(lst: List[str]) -> List[int]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     Returns a list of the lengths of the elements in a list of strings.
 
